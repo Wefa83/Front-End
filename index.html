@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- font Roboto -->
+    <link rel="stylesheet" href="css/roboto.css">
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Coffe shop</title>
+</head>
+<body>
+    <!-- start header -->
+    <section class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="">
+                    <img src="images/Logo_3.png" alt="Logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <div class="profile-img">
+                    <a href="login.html">
+                        <img src="images/profile_small.jpg" alt="user-profile">
+                    </a>
+                </div>
+                <div id="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="search-form" id="search-form">
+                        <input type="search" id="search-txt" placeholder="Search here ...">
+                        <label for="search-txt" class="fa-solid fa-magnifying-glass"></label>
+                    </div>
+                </div>
+                <div id="cart-icon">
+                    <div class="notification">4</div>
+                    <i class="fa-regular fa-cart-shopping-fast" id="cart-icon"></i>
+                    <div class="cart-items-container">
+                        <h3 class="cart-title">Your Cart</h3>
+                        <div class="cart-item">
+                            <img src="images/cart-item-1.png" alt="item-1">
+                            <div class="content">
+                                <h3>Cart Item 1</h3>
+                                <div class="price">550LE</div>
+                                <div class="qty">
+                                    <span class="qty-title">Qty</span>
+                                    <span class="qty-value">3</span>
+                                </div>
+                            </div>
+                            <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+                        </div>
+                        <div class="cart-item">
+                            <img src="images/cart-item-2.png" alt="item-1">
+                            <div class="content">
+                                <h3>Cart Item 2</h3>
+                                <div class="price">210LE</div>
+                                <div class="qty">
+                                    <span class="qty-title">Qty</span>
+                                    <span class="qty-value">1</span>
+                                </div>
+
+                            </div>
+                            <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+                        </div>
+                        <div class="cart-item">
+                            <img src="images/cart-item-3.png" alt="item-1">
+                            <div class="content">
+                                <h3>Cart Item 3</h3>
+                                <div class="price">1080LE</div>
+                                <div class="qty">
+                                    <span class="qty-title">Qty</span>
+                                    <span class="qty-value">4</span>
+                                </div>
+
+                            </div>
+                            <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+                        </div>
+                        <div class="cart-item">
+                            <img src="images/cart-item-4.png" alt="item-1">
+                            <div class="content">
+                                <h3>Cart Item 4</h3>
+                                <div class="price">100LE</div>
+                                <div class="qty">
+                                    <span class="qty-title">Qty</span>
+                                    <span class="qty-value">0.5</span>
+                                </div>
+
+                            </div>
+                            <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+                        </div>
+                        <div class="cart-total">
+                            <div>
+                                <span class="sub-title">Sub Total:</span>
+                                <span>1,940.00</span>
+                                <span class="currency">EGP</span>
+                            </div>
+                            <div>
+                                <span class="sub-title">Discount:</span>
+                                <span>00.00</span>
+                                <span class="currency">EGP</span>
+                            </div>
+                            <div>
+                                <span class="sub-title">value-Tax-14%:</span>
+                                <span>271.60</span>
+                                <span class="currency">EGP</span>
+                            </div>
+                            <hr>
+                            <div>
+                                <span class="sub-title">Total:</span>
+                                <span>2,211.60</span>
+                                <span class="currency">EGP</span>
+                            </div>
+                        </div>
+                        <button class="check-out-btn">Check out</button>
+                    </div>
+                
+                </div>
+                <i class="fa-regular fa-bars" id="menu-icon"></i>
+            </div>
+        </div>
+    </section>
+    <!-- End header -->
+
+    <!-- Landing -->
+    <section class="landing" id="home">
+        <div class="layout">
+            <div class="container">
+                <div class="intro-text">
+                    <h1>Fresh coffee in the morning</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati inventore consequuntur non.</p>
+                    <button class="intro-btn">get yours now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End landing -->
+
+    <!-- About Us  -->
+    <section class="about-us" id="about">
+        <div class="container">
+            <h1 class="special-heading">
+                <span class="title-gold">about </span>
+                <span>us</span>
+            </h1>
+            <div class="content">
+                <div class="image">
+                        <img src="images/About-us_4.jpg" alt="">
+                </div>
+                <div class="about-content">
+                    <h3>What Makes our coffee special?</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia sapiente tempore repudiandae praesentium quaerat soluta dignissimos alias deleniti laboriosam impedit, id corrupti nisi vitae ipsam blanditiis facere, earum suscipit qui?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, provident repudiandae.</p>
+                    <button class="intro-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End About Us  -->
+
+    <!-- menu section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h1 class="special-heading">
+                <span>our </span>
+                <span class="title-gold">menu</span>
+            </h1>
+            <div class=" menu-content">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/product-12.png" alt="Espresso">
+                    </div>
+                    <h3>Espresso</h3>
+                    <div class="advertise-lable new-product">New</div>
+                    <div class="price">35.00EL</div>
+                    <button class="intro-btn">Add to cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/Product-1.png" alt="">
+                    </div>
+                    <h3>Ice Mokka</h3>
+                    <div class="advertise-lable discounted">Discounted</div>
+                    <div class="price">65.00EL <del>80.00LE</del></div>
+                    <button class="intro-btn">Add to cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/product-10.png" alt="">
+                    </div>
+                    <h3>French coffe</h3>
+                    <div class="advertise-lable best-seller">Best Seller</div>
+                    <div class="price">40.00EL</div>
+                    <button class="intro-btn">Add to cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/product-5.png" alt="">
+                    </div>
+                    <h3>Cappuccino</h3>
+                    <div class="advertise-lable special-offer">Special offer</div>
+                    <div class="price">70.00EL</div>
+                    <button class="intro-btn">Add to cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/product-7.png" alt="">
+                    </div>
+                    <h3>American coffe</h3>
+                    <div class="advertise-lable limited-time">Limited Time</div>
+                    <div class="price">50.00EL</div>
+                    <button class="intro-btn">Add to cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/product-13.png" alt="">
+                    </div>
+                    <h3>English tea</h3>
+                    <div class=""></div>
+                    <div class="price">30.99EL</div>
+                    <button class="intro-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <button class="intro-btn">Show full menu</button>
+            </div>
+        </div>
+    </section>
+    <!-- End menu section -->
+
+    <!-- Products scrion -->
+    <section class="products" id="products">
+        <div class="container">
+            <h1 class="special-heading">
+                <span class="title-gold">our </span>
+                <span>Products</span>
+            </h1>
+            <div class=" menu-content">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/h9-product2.png" alt="Espresso">
+                    </div>
+                    <h3>Espresso</h3>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-a" value="5"/>
+                        <label for="star-a"></label>
+                        <input type="radio" name="stars" id="star-b" value="4"/>
+                        <label for="star-b"></label>
+                    
+                        <input type="radio" name="stars" id="star-c" value="3"/>
+                        <label for="star-c"></label>
+                    
+                        <input type="radio" name="stars" id="star-d" value="2"/>
+                        <label for="star-d"></label>
+                    
+                        <input type="radio" name="stars" id="star-e" value="1"/>
+                        <label for="star-e"></label>
+                    </div>
+                    <div class="icon-container">
+                        <i class="fa-duotone fa-cart-plus"></i>
+                        <i class="fa-duotone fa-heart-circle-plus"></i>
+                        <i class="fa-duotone fa-eye"></i>
+                    </div>
+                    <div class="price">35.00EL</div>
+                    <button class="intro-btn">Add to cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/h9-product3.png" alt="">
+                    </div>
+                    <h3>Ice Mokka</h3>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-a" value="5"/>
+                        <label for="star-a"></label>
+                        <input type="radio" name="stars" id="star-b" value="4"/>
+                        <label for="star-b"></label>
+                    
+                        <input type="radio" name="stars" id="star-c" value="3"/>
+                        <label for="star-c"></label>
+                    
+                        <input type="radio" name="stars" id="star-d" value="2"/>
+                        <label for="star-d"></label>
+                    
+                        <input type="radio" name="stars" id="star-e" value="1"/>
+                        <label for="star-e"></label>
+                    </div>
+
+                    <div class="icon-container">
+                        <i class="fa-duotone fa-cart-plus"></i>
+                        <i class="fa-duotone fa-heart-circle-plus"></i>
+                        <i class="fa-duotone fa-eye"></i>
+                    </div>
+                    <div class="price">65.00EL <del>80.00LE</del></div>
+                    <button class="intro-btn">Add to cart</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/h9-product4.png" alt="">
+                    </div>
+                    <h3>French coffe</h3>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-a" value="5"/>
+                        <label for="star-a"></label>
+                        <input type="radio" name="stars" id="star-b" value="4"/>
+                        <label for="star-b"></label>
+                    
+                        <input type="radio" name="stars" id="star-c" value="3"/>
+                        <label for="star-c"></label>
+                    
+                        <input type="radio" name="stars" id="star-d" value="2"/>
+                        <label for="star-d"></label>
+                    
+                        <input type="radio" name="stars" id="star-e" value="1"/>
+                        <label for="star-e"></label>
+                    </div>
+
+                    <div class="icon-container">
+                        <i class="fa-duotone fa-cart-plus"></i>
+                        <i class="fa-duotone fa-heart-circle-plus"></i>
+                        <i class="fa-duotone fa-eye"></i>
+                    </div>
+                    <div class="price">40.00EL</div>
+                    <button class="intro-btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <button class="intro-btn">Show Products List</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Products scrion -->
+
+    <!-- customer Review -->
+    <section class="review" id="review">
+        <div class="container">
+            <h1 class="special-heading">
+                <span >customer's </span>
+                <span class="title-gold">review</span>
+            </h1>
+            <div class=" menu-content">
+                <div class="product-card">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore voluptates id ut, voluptate nobis totam corporis alias, quod, esse porro officia ipsum voluptatibus corrupti ipsam consectetur voluptas laboriosam vitae explicabo.</p>
+                    <div class="product-img">
+                        <img src="images/a1.jpg" alt="user-profile">
+                    </div>
+                    <h2>Joe John</h2>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-a" value="5"/>
+                        <label for="star-a"></label>
+                        <input type="radio" name="stars" id="star-b" value="4"/>
+                        <label for="star-b"></label>
+                    
+                        <input type="radio" name="stars" id="star-c" value="3"/>
+                        <label for="star-c"></label>
+                    
+                        <input type="radio" name="stars" id="star-d" value="2"/>
+                        <label for="star-d"></label>
+                    
+                        <input type="radio" name="stars" id="star-e" value="1"/>
+                        <label for="star-e"></label>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore voluptates id ut, voluptate nobis totam corporis alias, quod, esse porro officia ipsum voluptatibus corrupti ipsam consectetur voluptas laboriosam vitae explicabo.</p>
+                    <div class="product-img">
+                        <img src="images/a2.jpg" alt="user-profile">
+                    </div>
+                    <h2>Sam Gorge</h2>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-a" value="5"/>
+                        <label for="star-a"></label>
+                        <input type="radio" name="stars" id="star-b" value="4"/>
+                        <label for="star-b"></label>
+                    
+                        <input type="radio" name="stars" id="star-c" value="3"/>
+                        <label for="star-c"></label>
+                    
+                        <input type="radio" name="stars" id="star-d" value="2"/>
+                        <label for="star-d"></label>
+                    
+                        <input type="radio" name="stars" id="star-e" value="1"/>
+                        <label for="star-e"></label>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore voluptates id ut, voluptate nobis totam corporis alias, quod, esse porro officia ipsum voluptatibus corrupti ipsam consectetur voluptas laboriosam vitae explicabo.</p>
+                    <div class="product-img">
+                        <img src="images/a3.jpg" alt="user-profile">
+                    </div>
+                    <h2>Erika Moon</h2>
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star-a" value="5"/>
+                        <label for="star-a"></label>
+                        <input type="radio" name="stars" id="star-b" value="4"/>
+                        <label for="star-b"></label>
+                    
+                        <input type="radio" name="stars" id="star-c" value="3"/>
+                        <label for="star-c"></label>
+                    
+                        <input type="radio" name="stars" id="star-d" value="2"/>
+                        <label for="star-d"></label>
+                    
+                        <input type="radio" name="stars" id="star-e" value="1"/>
+                        <label for="star-e"></label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End customer Review -->
+
+    <!-- Contact-us -->
+    <section class="about-us contact" id="contact">
+        <div class="container">
+            <h1 class="special-heading">
+                <span class="title-gold">Contact </span>
+                <span>us</span>
+            </h1>
+            <div class="content">
+                <div class="about-content">
+                    <h3>get in touch</h3>
+                    <div class="input-container">
+                        <i class="icon fa fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-container">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" placeholder="e-mail">
+                    </div>
+                    <div class="input-container">
+                        <i class="fa-regular fa-phone-flip"></i>
+                        <input type="text" placeholder="mobile">
+                    </div>
+                    <div class="menu-btn">
+                        <button class="intro-btn">Contact Now</button>
+                    </div>
+                        </div>
+                <div class="image">
+                        <img src="images/thumbnail.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End contact-us -->
+
+    <section class="blogs" id="blogs">
+        <div class="container">
+            <h1 class="special-heading">
+                <span>our </span>
+                <span class="title-gold">blogs</span>
+            </h1>
+            <div class=" menu-content">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/landing_1.jpg" alt="Espresso">
+                    </div>
+                    <h3>history of Espresso</h3>
+                    <h2>By Admin at 15th of May 2023</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipis elit. Veritatis atque laboriosam inventore?</p>
+                    <div class="blog-btn">
+                        <button class="intro-btn">read more</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/Landing_2.jpg" alt="">
+                    </div>
+                    <h3>Italian Coffe</h3>
+                    <h2>By Admin at 15th of May 2023</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipis elit. Veritatis atque laboriosam inventore?</p>
+                    <div class="blog-btn">
+                        <button class="intro-btn">read more</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="images/landing_4.jpg" alt="">
+                    </div>
+                    <h3>cappuccino recipe</h3>
+                    <h2>By Admin at 15th of May 2023</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis atque laboriosam inventore?</p>
+                    <div class="blog-btn">
+                        <button class="intro-btn">read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-icons">
+                <span class="facebook"><i class="fa-brands fa-facebook-f"></i></span>
+                <span class="twitter"><i class="fa-brands fa-twitter"></i></span>
+                <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+                <span class="linkedin"><i class="fa-brands fa-linkedin"></i></span>
+                <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+                <span class="skype"><i class="fa-brands fa-skype"></i></span>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Created by <span class="creator">Aboelwafa</span> All rights reserved</p>
+            </div>
+        </div>
+
+
+    </section>
+    
+</body>
+</html>
